@@ -8,19 +8,30 @@ h1 {
     margin-top: 300px;
     font-size: 50px;
     font-family: Roboto;
-    margin-bottom: 1px;
+    margin-bottom: 5px;
+}
+
+@keyframes headlineColor {
+    0% { color: #10FF9B; }
+    100% { color: #2EDEF0; }
+}
+
+.headline {
+    animation-name: headlineColor;
+    animation-duration: 3s; /* Durasi animasi dalam detik */
+    animation-iteration-count: infinite; /* Mengulang animasi secara terus-menerus */
 }
 
 .icon {
     text-align: center;
     display: flex;
     justify-content: center;
-    padding: 0px;
 }
 
 .github {
+    padding: 5px;
 }
 
 .twitter {
-
+    padding: 5px;
 }
