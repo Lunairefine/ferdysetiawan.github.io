@@ -7,8 +7,14 @@ h1 {
     text-align: center;
     margin-top: 300px;
     font-size: 50px;
-    font-family: Roboto;
+    font-family: Galaxy;
     margin-bottom: 5px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: Inter;
 }
 
 @keyframes headlineColor {
@@ -18,8 +24,8 @@ h1 {
 
 .headline {
     animation-name: headlineColor;
-    animation-duration: 3s; /* Durasi animasi dalam detik */
-    animation-iteration-count: infinite; /* Mengulang animasi secara terus-menerus */
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 .icon {
@@ -27,11 +33,26 @@ h1 {
     display: flex;
     justify-content: center;
 }
-
 .github {
     padding: 5px;
 }
 
 .twitter {
     padding: 5px;
+}
+
+@font-face {
+    font-family: "Galaxy";
+    font-style: normal;
+    font-weight: 50;
+    font-display: block;
+    src: url(https://galxestatic.com/w/s/1b47ad3/fonts/galaxy.a33a70b.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(https://galxestatic.com/w/s/1b47ad3/fonts/inter-regular.2391725.ttf) format("truetype")
 }
