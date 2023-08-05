@@ -28,6 +28,11 @@ p {
     animation-iteration-count: infinite;
 }
 
+.passkey {
+    margin-top: 100px;
+    padding-top: 5px;
+}
+
 .icon {
     text-align: center;
     display: flex;
@@ -55,4 +60,8 @@ p {
     font-weight: 400;
     font-display: block;
     src: url(https://galxestatic.com/w/s/1b47ad3/fonts/inter-regular.2391725.ttf) format("truetype")
+}
+
+.formstyle {
+    text-align: center;
 }
