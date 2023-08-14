@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Galaxy";
     font-style: normal;
-    font-weight: 50;
+    font-weight: 500;
     font-display: block;
     src: url(https://galxestatic.com/w/s/1b47ad3/fonts/galaxy.a33a70b.ttf) format("truetype")
 }
@@ -20,6 +20,7 @@ html, body, :root {
     box-sizing: border-box;
     height: 100%; /* Menetapkan tinggi 100% untuk elemen root (html dan body) */
     background: black;
+    font-size: 16px; //
 }
 
 .container {
@@ -28,11 +29,12 @@ html, body, :root {
     justify-content: center;
     align-items: center;
     height: 100%; /* Menetapkan tinggi 100% untuk kontainer */
+    padding: 20px; //
 }
 
 h1 {
     text-align: center;
-    font-size: 70px;
+    font-size: 3rem;
     font-family: Galaxy;
     margin-bottom: 1px;
 }
@@ -46,8 +48,9 @@ h1 {
 p {
     text-align: center;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 1rem;
     color: white;
+    margin-bottom: 20px;
 }
 
 .icon {
