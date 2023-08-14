@@ -1,50 +1,3 @@
-body {
-    background-color: rgb(20, 20, 20);
-}
-
-h1 {
-    color: #10FF9B;
-    text-align: center;
-    margin-top: 250px;
-    font-size: 70px;
-    font-family: Galaxy;
-    margin-bottom: 5px;
-}
-
-p {
-    color: white;
-    text-align: center;
-    font-family: Inter;
-    font-size: 18px;
-}
-
-@keyframes headlineColor {
-    0% { color: #10FF9B; }
-    100% { color: white; }
-    50% { color: #2EDEF0; }
-}
-
-.headline {
-    animation-name: headlineColor;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-}
-
-.icon {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-
-}
-
-.github {
-    padding: 10px;
-}
-
-.twitter {
-    padding: 10px;
-}
-
 @font-face {
     font-family: "Galaxy";
     font-style: normal;
@@ -59,4 +12,64 @@ p {
     font-weight: 400;
     font-display: block;
     src: url(https://galxestatic.com/w/s/1b47ad3/fonts/inter-regular.2391725.ttf) format("truetype")
+}
+
+html, body, :root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%; /* Menetapkan tinggi 100% untuk elemen root (html dan body) */
+    background: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Menetapkan tinggi 100% untuk kontainer */
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: Galaxy;
+    margin-bottom: 1px;
+}
+
+.headline {
+    animation-name: headlineColor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+p {
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    color: white;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Add some space between the icons and the <p> tag */
+}
+
+.github, .twitter {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+
+.github svg, .twitter svg {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+@keyframes headlineColor {
+    0% { color: #10FF9B; }
+    100% { color: white; }
+    50% { color: #2EDEF0; }
 }
