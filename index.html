@@ -9,8 +9,9 @@
 </head>
 <body>
     <div>
-        <h1 class="headline" id="headline">Ferstawn.</h1>
-        <p>Because i give them Shelter.</p>
+        <h1 class="headline" id="">Ferstawn.</h1>
+        <p id="mtype">それでも, 僕だけは忘れない 物語</p>
+        <p id="typeWriter"></p>
         <script src="script.js"></script>
     </div>
     <div class="icon">
@@ -28,25 +29,6 @@
         </svg>
         </a>
         </div>
-    </div>
-    <div class="passkey">
-        <p class="passkey">Password :</p>
-        <form id="myForm" class="formstyle">
-            <input type="password" id="kataKunci" name="kataKunci" autocomplete="off" data-kataKunci="5cdef9f8ed3da52315f715b3c7c5b8e7" required>
-        </form>
-        <script>
-            function redirectToPage() {
-                const kataKunci = document.getElementById ('kataKunci').value;
-                const inputElement = document.getElementById('kataKunci');
-                const kataKunciHash = inputElement.getAttribute('data-kataKunci');
-
-
-                if ( kataKunci === kataKunciHash ) {
-                    window.location.href = '/style/Folder1/wkwkwk.png';
-                 }
-            }
-            document.getElementById('kataKunci').addEventListener('input', redirectToPage);
-        </script>
     </div>
 </body>
 </html>

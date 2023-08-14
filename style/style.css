@@ -5,8 +5,8 @@ body {
 h1 {
     color: #10FF9B;
     text-align: center;
-    margin-top: 300px;
-    font-size: 50px;
+    margin-top: 250px;
+    font-size: 70px;
     font-family: Galaxy;
     margin-bottom: 5px;
 }
@@ -15,11 +15,13 @@ p {
     color: white;
     text-align: center;
     font-family: Inter;
+    font-size: 18px;
 }
 
 @keyframes headlineColor {
     0% { color: #10FF9B; }
-    100% { color: #2EDEF0; }
+    100% { color: white; }
+    50% { color: #2EDEF0; }
 }
 
 .headline {
@@ -28,22 +30,19 @@ p {
     animation-iteration-count: infinite;
 }
 
-.passkey {
-    margin-top: 100px;
-    padding-top: 5px;
-}
-
 .icon {
     text-align: center;
     display: flex;
     justify-content: center;
+
 }
+
 .github {
-    padding: 5px;
+    padding: 10px;
 }
 
 .twitter {
-    padding: 5px;
+    padding: 10px;
 }
 
 @font-face {
@@ -60,8 +59,4 @@ p {
     font-weight: 400;
     font-display: block;
     src: url(https://galxestatic.com/w/s/1b47ad3/fonts/inter-regular.2391725.ttf) format("truetype")
-}
-
-.formstyle {
-    text-align: center;
 }

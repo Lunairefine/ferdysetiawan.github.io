@@ -1,4 +1,4 @@
-const h4Element = document.getElementById('headline');
+const h4Element = document.getElementById('typeWriter');
 const text = h4Element.textContent;
 
 let charIndex = 0;
