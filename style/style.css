@@ -29,7 +29,6 @@ html, body, :root {
     justify-content: center;
     align-items: center;
     height: 100%; /* Menetapkan tinggi 100% untuk kontainer */
-    padding: 20px; //
 }
 
 h1 {
