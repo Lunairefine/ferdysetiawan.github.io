@@ -72,6 +72,31 @@ p {
 
 @keyframes headlineColor {
     0% { color: #10FF9B; }
-    100% { color: white; }
+    100% { color: rgb(153, 69, 255); }
     50% { color: #2EDEF0; }
+}
+
+.buttonNext {
+    margin-top: 50px;
+    color: white;
+    
+}
+
+button {
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    background: rgb(153, 69, 255);
+    color: white;
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
 }

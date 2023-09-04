@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Galaxy";
+    font-style: normal;
+    font-weight: 500;
+    font-display: block;
+    src: url(https://galxestatic.com/w/s/1b47ad3/fonts/galaxy.a33a70b.ttf) format("truetype")
+}
+
+root, body {
+    padding: 0;
+    margin: 0:
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: black;
+  }
+  
+  .message {
+    text-align: center;
+  }
+  
+
+h1 {
+    color: white;
+    font-family: Galaxy;
+    text-align: center;
+    margin: 0;
+    font-size: 35px;
+}
